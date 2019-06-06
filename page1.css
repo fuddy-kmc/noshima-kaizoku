@@ -73,6 +73,7 @@ header a {
     text-decoration: none;
 }
 
+
 li {
     width: 15vw;
     height: 2.5vw;
@@ -84,13 +85,13 @@ li {
     text-align: center;
     padding: 8px 0 10px;
     color: #fff;
-    background-color: rgba(0, 0, 0, 0.8);
+    background-color: rgba(0, 0, 0, 0.4);
     border-bottom: 0px;
 }
 
 li:hover {
     color: red;
-    background-color: rgba(190, 190, 190, 0.8);
+    background-color: rgba(190, 190, 190, 0.2);
     border-bottom: 0px;
 }
 
@@ -276,6 +277,9 @@ li:hover {
     transition: all 0.2s ease-in;
     text-decoration: none;
 }
+.floathead a{
+        text-decoration: none;
+    }
 
 .grayback {
     background-color: lightgray;
