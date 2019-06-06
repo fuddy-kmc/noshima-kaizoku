@@ -1,9 +1,7 @@
 header {
-    left: 0vw;
     position: relative;
     background-color: black;
     color: white;
-    width: 100%;
     font-size: 1.5vw;
     overflow-x: hidden;
     z-index: 3;
@@ -13,9 +11,8 @@ header {
 body {
     background-color: black;
     padding-bottom: 10vh;
-    padding-left: 0vw;
-    margin: 0vw;
-    width: 100%;
+    width:100vw;
+    margin-left: -1vw;
     overflow-x: hidden;
 }
 
@@ -25,7 +22,6 @@ footer {
     color: white;
     padding-bottom: 2vw;
     margin-bottom: -5vw;
-    width: 100%;
     overflow-x: hidden;
 }
 
@@ -54,23 +50,22 @@ h1 {
 
 h2 {
     text-align: center;
-    font-size: 2.6vw;
+    font-size: calc(2em+0.25vw);
     font-family: "ヒラギノ角ゴ", "YuGothic", "Yu Gothic", "Meiryo", "ヒラギノ角ゴ", "sans-serif";
     ;
 }
 
 h3 {
     text-align: center;
-    font-size: 2.4vw;
+    font-size: calc(1.5em*1vw);
     font-family: "YuGothic", "Yu Gothic", "Meiryo", "ヒラギノ角ゴ", "sans-serif";
     ;
 }
 
 p {
     text-align: center;
-    font-size: 2vw;
+    font-size: calc(16px+2vw);
     font-family: "YuGothic", "Yu Gothic", "Meiryo", "ヒラギノ角ゴ", "sans-serif";
-    ;
     padding: 1vw;
 }
 
@@ -80,6 +75,7 @@ header a {
 
 li {
     width: 15vw;
+    height: 2.5vw;
     z-index: 2;
     font-size: 2vw;
     font-weight: bold;
@@ -118,9 +114,10 @@ li:hover {
 .activity img {
     position: relative;
     overflow: hidden;
-    width: 100%;
+    width: 50vw;
     height: auto;
-    transition: all 1s ease;
+    transition: border 1s ease-out;
+    transition: transform 1s ease;
 }
 
 .activity td {
@@ -128,8 +125,8 @@ li:hover {
 }
 
 .activity figure img {
-    height: 30vh;
-    width: auto;
+    height: auto;
+    width: 25vw;
     border-radius: 1vw;
     border: 5px solid black;
 }
@@ -139,16 +136,12 @@ li:hover {
     -webkit-transform: scale(1.2);
     -ms-transform: scale(1.2);
     transform: scale(1.2);
-    height: 30vh;
+    width: 25vw;
     background-size: 140%;
     border-radius: 1vw;
-    border: 5px solid white;
+    border: 5px dotted white;
 }
 
-.activity figure:hover>.caption {
-    z-index: 2;
-    display: inline;
-}
 
 .balloon1 {
     vertical-align: middle;
@@ -232,7 +225,6 @@ li:hover {
     line-height: 1vh;
     top: 50%;
     left: 13vw;
-    font-size: 2vw;
 }
 
 .character img{
@@ -354,14 +346,15 @@ li:hover {
 .oceanBack {
     position: relative;
     margin: 0 auto;
-    width: 130vh;
-    height: 69%;
+    width: 80vw;
+    height: 40vw;
     border-radius: 1vw;
     border: 5px solid white;
     box-shadow: 0px 0px 10px #ccc, inset 0px 0px 10px rgba(0, 0, 0, 0.8);
     background: url(image/noshimatoride.png) center center;
+    background-repeat:no-repeat;
     background-color: rgba(30, 189, 238, 0.829);
-    background-size: 103%;
+    background-size: 80vw;
 }
 
 .oshimapr {
@@ -427,18 +420,15 @@ li:hover {
 
 .story h2 {
     text-align: left;
-    font-size: 2.5vw;
     margin-top: -0.5vw;
 }
 
 .story h3 {
     text-align: left;
-    font-size: 2vw;
 }
 
 .story p {
     text-align: left;
-    font-size: 1.8vw;
 }
 
 .story img {
@@ -516,7 +506,7 @@ li:hover {
     color: white;
     text-align: center;
     vertical-align: middle;
-    width: 100%;
+    width: 100vw;
     /*background: url(image/titleimage.png) center center;*/
     animation: title 1s linear -5s infinite alternate;
     background-size: cover;
@@ -545,9 +535,11 @@ li:hover {
     0% {
         background: url(image/titleimage.png) center center;
         background-size: 100%;
+        background-repeat: no-repeat;
     }
     100% {
         background: url(image/titleimage.png) center center;
         background-size: 110%;
+        background-repeat: no-repeat;
     }
 }
