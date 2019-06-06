@@ -50,21 +50,21 @@ h1 {
 
 h2 {
     text-align: center;
-    font-size: calc(2em+0.25vw);
+    font-size: 32px;
     font-family: "ヒラギノ角ゴ", "YuGothic", "Yu Gothic", "Meiryo", "ヒラギノ角ゴ", "sans-serif";
     ;
 }
 
 h3 {
     text-align: center;
-    font-size: calc(1.5em*1vw);
+    font-size: 30px;
     font-family: "YuGothic", "Yu Gothic", "Meiryo", "ヒラギノ角ゴ", "sans-serif";
     ;
 }
 
 p {
     text-align: center;
-    font-size: 20px;
+    font-size: 24px;
     font-family: "YuGothic", "Yu Gothic", "Meiryo", "ヒラギノ角ゴ", "sans-serif";
     padding: 1vw;
 }
@@ -365,7 +365,6 @@ li:hover {
     text-align: center;
     width: 100vw;
     height: 120%;
-    padding-top: 5vh;
     padding-bottom: 5vh;
     position: relative;
     margin-left: -20px;
