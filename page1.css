@@ -64,7 +64,7 @@ h3 {
 
 p {
     text-align: center;
-    font-size: calc(16px+2vw);
+    font-size: 20px;
     font-family: "YuGothic", "Yu Gothic", "Meiryo", "ヒラギノ角ゴ", "sans-serif";
     padding: 1vw;
 }
@@ -365,8 +365,8 @@ li:hover {
     text-align: center;
     width: 100vw;
     height: 120%;
-    padding-top: 10vh;
-    padding-bottom: 10vh;
+    padding-top: 5vh;
+    padding-bottom: 5vh;
     position: relative;
     margin-left: -20px;
     padding-left: 20px;
