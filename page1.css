@@ -13,6 +13,7 @@ body {
     padding-bottom: 10vh;
     width:100vw;
     margin-left: -1vw;
+    padding-left:1vw;
     overflow-x: hidden;
 }
 
@@ -43,28 +44,28 @@ table {
 
 h1 {
     text-align: center;
-    font-size: 3vw;
+    font-size: 2.5rem;
     font-family: "ヒラギノ角ゴ", "YuGothic", "Yu Gothic", "Meiryo", "ヒラギノ角ゴ", "sans-serif";
     ;
 }
 
 h2 {
     text-align: center;
-    font-size: 32px;
+    font-size: 2rem;
     font-family: "ヒラギノ角ゴ", "YuGothic", "Yu Gothic", "Meiryo", "ヒラギノ角ゴ", "sans-serif";
     ;
 }
 
 h3 {
     text-align: center;
-    font-size: 30px;
+    font-size: 1.8rem;
     font-family: "YuGothic", "Yu Gothic", "Meiryo", "ヒラギノ角ゴ", "sans-serif";
     ;
 }
 
 p {
     text-align: center;
-    font-size: 24px;
+    font-size: 1.3rem;
     font-family: "YuGothic", "Yu Gothic", "Meiryo", "ヒラギノ角ゴ", "sans-serif";
     padding: 1vw;
 }
@@ -73,6 +74,9 @@ header a {
     text-decoration: none;
 }
 
+ul{background-color: rgba(0, 0, 0, 0.4);
+    padding-right: 8vw;
+}
 
 li {
     width: 15vw;
@@ -85,7 +89,6 @@ li {
     text-align: center;
     padding: 8px 0 10px;
     color: #fff;
-    background-color: rgba(0, 0, 0, 0.4);
     border-bottom: 0px;
 }
 
@@ -367,14 +370,10 @@ li:hover {
     height: 120%;
     padding-bottom: 5vh;
     position: relative;
-    margin-left: -20px;
-    padding-left: 20px;
+    margin-left: -1vw;
+    padding-left: 1vw;
 }
 
-.oshimapr table {
-    margin-left: 0px;
-    padding-left: 0px;
-}
 
 .red {
     color: red;
@@ -442,7 +441,6 @@ li:hover {
 
 .story td {
     vertical-align: top;
-    padding-left: 5%;
     width: 50vw;
     overflow: hidden
 }
