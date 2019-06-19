@@ -509,7 +509,7 @@ li:hover {
     text-align: center;
     vertical-align: middle;
     width: 100vw;
-    /*background: url(image/titleimage.png) center center;*/
+    background: url(image/titleimage.png) center center;
     animation: title 1s linear -5s infinite alternate;
     background-size: cover;
 }
