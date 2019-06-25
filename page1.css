@@ -365,16 +365,6 @@ li:hover {
     background-size: 80vw;
 }
 
-.openday {
-    font-size: 3vw;
-    border-radius: 50%;
-    margin-left: 70%;
-    width: 15vw;
-    padding: 1.5vw;
-    background-color: rgba(0, 0, 0, 0.5);
-    color: white;
-}
-
 .oshimapr {
     text-align: center;
     width: 100vw;
@@ -543,6 +533,7 @@ li:hover {
 .whiteBackShadow {
     background-color: rgba(255, 255, 255, 0.5);
 }
+
 
 @keyframes title {
     0% {
