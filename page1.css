@@ -366,14 +366,13 @@ li:hover {
 }
 
 .openday {
-    animation: zoominout 1s linear -5s infinite alternate;
     font-size: 3vw;
     border-radius: 50%;
     margin-left: 70%;
     width: 15vw;
     padding: 1.5vw;
     background-color: rgba(0, 0, 0, 0.5);
-    color: yellow"
+    color: white;
 }
 
 .oshimapr {
